@@ -18,11 +18,11 @@ function App() {
       
       <Testimonio/>
     <Routes>
-    <Route exact path="/" element={<Welcome/>}/>
-    <Route exact path="/welcome" element={<Welcome/>}/>
-    <Route exact path="/listar" element={<Listar/>}/>
-    <Route exact path="/buscar" element={<Buscar/>}/>
-    <Route exact path="/nuevo" element={<Nuevo/>}/>
+    <Route path="/" element={<Welcome/>}/>
+    <Route path="/welcome" element={<Welcome/>}/>
+    <Route path="/listar" element={<Listar/>}/>
+    <Route path="/buscar" element={<Buscar/>}/>
+    <Route path="/nuevo" element={<Nuevo/>}/>
 
     
 

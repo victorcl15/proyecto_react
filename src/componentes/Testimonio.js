@@ -2,7 +2,7 @@
 //import {texto} from './Variables'
 import './Estilos.css';
 //import Listar from "./Listar";
-import {Link, Navigate, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 
 
@@ -18,17 +18,17 @@ function Testimonio() {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     
-                    <NavLink id="estilo" className="nav-link active" aria-current="page" exact to="/welcome" activeClassName='point'>Directory</NavLink>
+                    <NavLink id="estilo" className="nav-link active" aria-current="page" to="/welcome">Directory</NavLink>
                   </li>
                   <li className="nav-item" >
-                    <NavLink id="estilo" className="nav-link active" aria-current="page" exact to="listar" activeClassName='point'>Restaurants</NavLink>
+                    <NavLink id="estilo" className="nav-link active" aria-current="page" to="listar">Restaurants</NavLink>
                     
                   </li>
                   <li className="nav-item" >
-                    <NavLink id="estilo" className="nav-link active" aria-current="page" exact to="buscar" activeClassName='point'>Search</NavLink>
+                    <NavLink id="estilo" className="nav-link active" aria-current="page" to="buscar">Search</NavLink>
                   </li>
                   <li className="nav-item" >
-                    <NavLink id="estilo" className="nav-link active" aria-current="page" exact to="nuevo" activeClassName="point">New</NavLink>
+                    <NavLink id="estilo" className="nav-link active" aria-current="page" to="nuevo">New</NavLink>
                   </li>
               
                 </ul>
