@@ -1,4 +1,4 @@
-import './Estilos.css';
+import "./styles.css"
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 //import {restaurantes} from "./Variables";
@@ -42,9 +42,13 @@ function Listar(){
     ])
 
     return (
+        
+        <div>
+        <h2 style={{fontSize: "40px", marginTop: "20px", marginLeft: "20px"}}><strong>Restaurantes</strong></h2>
+        
+
     <div style={{display: "inline-flex", marginTop: "20px", align: "align"}}>
-        
-        
+       
 
         {restaurants.map(restau => {
             
@@ -56,6 +60,7 @@ function Listar(){
             )
         })}
 
+    </div>
     </div>
    
     );
